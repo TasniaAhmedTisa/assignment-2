@@ -9,6 +9,7 @@ nav a{
     color: white;
     
 }
+
 nav{
     width: auto;
     height: 46px;
@@ -25,6 +26,19 @@ nav{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
 }
+.btn{
+    width: 224px;
+    height: 54px;
+    background-color:red;
+    border-radius: 200px;
+    box-shadow: none;
+}
+.bt{
+    width: 200px;
+    height: 54px;
+    border-radius: 200px;
+    box-shadow: none;
+}
 
 .list1,.hp{
 
@@ -34,6 +48,37 @@ nav{
     
     
 }
+.banner{
+    display: flex;
+
+}
+.text{
+ font-family:"Playwrite CU", cursive;;
+}
+.container{
+
+display:flex;
+justify-content: space-evenly;
+align-items: center;
+padding: 0px;
+
+
+}
+.head{
+    margin:0;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.run{
+    display: flex;
+   
+}
+.run-img{
+    width: 10px;
+    height: 10px;
+}
+
 footer{
     display: flex;
     justify-content: space-between;
@@ -44,3 +89,4 @@ footer{
 footer ul{
 list-style: none;   
 }
+
