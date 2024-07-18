@@ -13,11 +13,13 @@ nav a{
 nav{
     width: auto;
     height: 46px;
+    margin-left: 100px;
+    margin-right: 100px;
     padding: 30px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border:1px solid white;
+    
     
 
 }
@@ -50,6 +52,8 @@ nav{
 }
 .banner{
     display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
 
 }
 .text{
@@ -58,11 +62,16 @@ nav{
 .container{
 
 display:flex;
+margin-left: 100px;
+margin-right: 100px;
 justify-content: space-evenly;
 align-items: center;
 padding: 0px;
 
 
+}
+.container img{
+    border-radius: 50%;
 }
 .head{
     margin:0;
@@ -70,8 +79,17 @@ padding: 0px;
     padding-bottom: 30px;
     align-items: center;
 }
+.card{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
 .run{
     display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
    
 }
 .run-img{
