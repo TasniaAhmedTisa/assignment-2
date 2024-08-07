@@ -96,23 +96,52 @@
         <h1 style="text-align: center;">BMI Calculator</h1>
     <p style="text-align: center;">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
     </div>
-    <div>
-        <h2>BMI Calculator Chart</h2>
-    </div>
+   
     <div class="table">
+        <h2>BMI Calculator Chart</h2>
         <table>
-            <th>BMI</th>
             <tr>
-                <td>Below 18.5</td>
-                <td></td>
-                
+              <th>BMI</th>
+              <th> Weight Status </th>
+              
             </tr>
+            <tr>
+              <td>Below 18.5</td>
+              <td>Underweight</td>
+            </tr>
+            <tr>
+                <td>18.5-24.9</td>
+                <td>Healthy</td>
+              </tr>
+              <tr>
+                <td>25.0 - 29.9</td>
+                <td>Overweight</td>
+              </tr>
+              <tr>
+                <td>30.0 and Above</td>
+                <td>Obese</td>
+              </tr>
+           
+            </table>
 
-            
-        </table>
-        <div>
-            
-        </div>
+        <div class="form">
+            <h2>Calculate your BMI</h2>
+            <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+            <form>
+                
+                <input type="text" value="Height/cm">
+                
+                <input type="text" value="Weight"><br>
+               
+                <input type="text" id="age" name="age" value="Age">
+               
+                <input type="text" value="Sex"><br>
+               
+                <input type="text" value="Select an activity"><br>
+                <button>Calculator</button>
+
+                
+              </form>
     </div>
     <div></div>
 </div>
