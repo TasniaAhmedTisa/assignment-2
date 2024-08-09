@@ -39,7 +39,7 @@ nav{
     box-shadow: none;
 }
 .bt{
-    width: 200px;
+    width: 150px;
     height: 54px;
     border-radius: 200px;
     box-shadow: none;
@@ -96,47 +96,91 @@ padding: 0px;
 }
 .calculator{
 
-    margin:0;
+    margin: 88px;
     padding-top: 30px;
     padding-bottom: 30px;
     align-items: center;
+    border: 1px solid white;
 }
 .bmi{
     display: flex;
     justify-content: space-evenly;
+    
+    
+    
 }
+table,th, td{
+    border: 1px solid gray;
+    border-collapse: collapse;
+    
+}
+
 .card{
     padding-top: 30px;
     padding-bottom: 30px;
+    margin: 88px;
+    border: 1px solid white;
 }
+
 .run{
+    width:auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 88px;
     display: flex;
     justify-content: space-between;
     margin-left: 100px;
     margin-right: 100px;
+    border: 1px solid white;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
      
    
 }
+.run-content{
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 40%;
+    background: rgb(34, 34, 34);
+}
+
+
 .run-img{
-    width: 10px;
-    height: 10px;
+    width: 40%;
+    background-color:rgb(34, 34, 34) ;
+    
+
+    
+    
+  
+}
+.meet{
+    margin: 88px;
+    border: 1px solid white;
+}
+.images{
+    display: grid;
+    grid-template-columns:600px 400px 100px;
+    object-fit:100%;
+    
+}
+.images>div{
+    border: 1px solid wheat;
 }
 
 footer{
     display: flex;
-    margin: 100px;
+    margin: 88px;
     justify-content: space-between;
     border-bottom: 1px solid gray;
     align-items: center;
+    border: 1px solid white;
     
 }
 footer ul{
 list-style: none;   
 }
-table,th, td{
-    border: 1px solid gray;
-    border-collapse: collapse;
-}
+
 
 /*small device*/
 @media  screen and (max-width:576px) {
