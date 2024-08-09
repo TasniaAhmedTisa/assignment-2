@@ -158,15 +158,37 @@ table,th, td{
     margin: 88px;
     border: 1px solid white;
 }
-.images{
-    display: grid;
-    grid-template-columns:600px 400px 100px;
-    object-fit:100%;
+.images-1{
+    width:auto;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+
+}
+.images-2{
+    height: 300px;
+
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
     
 }
-.images>div{
-    border: 1px solid wheat;
+
+.images img{
+    
+    width: 300px;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5%;
 }
+
+
+
+
 
 footer{
     display: flex;
