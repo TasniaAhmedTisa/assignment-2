@@ -11,9 +11,7 @@ p,li{
     font-size: 13px;
     color: rgba(255, 255, 255, 0.5);
 }
-.hp h{
-    font-size:xx-large;
-}
+
 nav a{
     text-decoration: none;
     padding: 5px;
@@ -24,7 +22,7 @@ nav a{
 nav{
     width: auto;
     height: 46px;
-    margin-left: 100px;
+    margin-left: 70px;
     margin-right: 100px;
     padding: 30px;
     display: flex;
@@ -330,55 +328,55 @@ footer{
     }
     
     .image1{
-        padding: 10px;
-        width: 200px;
-        height: 150px;
+    
+        width: 20px;
+        height: 100px;
     }
     .image2{
         width: 200px;
-        height: 150px;
+        height: 100px;
     }
     .image3{
         width: 200px;
-        height: 150px;
+        height: 100px;
     }
-    .image1{
-        width: 200px;
-        height: 150px;
-    }
+    
     .image4{
-        width: 200px;
-        height: 150px;
+        width: 20px;
+        height: 100px;
     }
     .image5{
         width: 200px;
-        height: 150px;
+        height: 100px;
     }
     .image6{
         width: 200px;
-        height: 150px;
+        height: 100px;
     }
     .images-1{
+        margin-left: -20px;
+        width: 300px;
+        height:300px;
         display:block;
+        
     }
     .images-2{
       width: 313px;
-      height: 272px;
+      height: 300px;
       display: block;
-      margin-bottom: 100px;
+      margin-bottom: 200px;
      
     }
     
     footer{
         display: block;
-        margin-top: 0px;
-        padding-top: -300px;
+        margin-top: -120px;
         
 
     }
     .list1{
         
-        margin-top: -150px;
+        margin-top: -40px;
         
 
     }
